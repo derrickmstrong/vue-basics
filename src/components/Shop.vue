@@ -1,7 +1,10 @@
 <template>
   <div class="mt-5 shop">
+      <div class="row">
+
       <!-- Pass data as props to ProductCard via :product="product" -->
       <ProductCard v-for="product in productsAPI" :key="product.id" :product="product" />
+      </div>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <div class="mt-5 product">
-        <p>Product is {{ id }}.</p>
+        <p>Product is {{ name }} with id: {{ id }}.</p>
     </div>
 </template>
 
@@ -8,6 +8,7 @@
 export default {
     props: [
       "id",
+      "name",
     ]
 }
 </script>

@@ -19,7 +19,7 @@ const router = createRouter({
             component: Shop,
         },
         {
-            path: "/product/:id",
+            path: "/shop/product/:id",
             name: 'product',
             component: Product,
             props: true, // allows use of named props in route
